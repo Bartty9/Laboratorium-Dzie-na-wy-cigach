@@ -44,7 +44,7 @@ namespace Laboratorium_Dzień_na_wyścigach
             }
             else
             {
-                MessageBox.Show(Name + " nie ma kasy żeby postawić.");
+                MessageBox.Show(Name + " nie ma tyle kasy żeby postawić.");
                 
             }
         }

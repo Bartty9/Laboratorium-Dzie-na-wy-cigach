@@ -46,7 +46,7 @@ namespace Laboratorium_Dzień_na_wyścigach
                 RacetrackLength = pictureBox1.Width - pictureBox5.Width,
                 MyRandom = Randomizer
             };
-            guys[0] = new Guy() { Name = "Joe", Cash = 5, MyBet = null, MyLabel = joeBetLabel, MyRadioButton = joeRadioButton };
+            guys[0] = new Guy() { Name = "Joe", Cash = 50, MyBet = null, MyLabel = joeBetLabel, MyRadioButton = joeRadioButton };
             guys[1] = new Guy() { Name = "Bob", Cash = 75, MyBet = null, MyLabel = bobBetLabel, MyRadioButton = bobRadioButton};
             guys[2] = new Guy() { Name = "Al", Cash = 45, MyBet = null, MyLabel = alBetLabel, MyRadioButton = alRadioButton};
             guys[0].UpdateLabels();
